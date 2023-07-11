@@ -27,10 +27,11 @@ function ToastPlayground() {
     setCheckedVariant('notice');
   }
 
+
   return (
     <div className={styles.wrapper}>
       <header>
-        <img alt="Cute toast mascot" src="/toast.png" />
+        <img alt="Cute toast mascot" src="./toast.png" />
         <h1>Toast Playground</h1>
       </header>
 
