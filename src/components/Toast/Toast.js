@@ -33,7 +33,7 @@ function Toast({ message, variant, variantIndex }) {
           <Icon size={24} />
         </div>
         <p className={styles.content}>
-          <VisuallyHidden>{`${variant}-${message}`}</VisuallyHidden>
+          <VisuallyHidden>{`${variant}-`}</VisuallyHidden>
           {message}
         </p>
         <button

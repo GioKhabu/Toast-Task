@@ -27,7 +27,6 @@ function ToastPlayground() {
     setCheckedVariant('notice');
   }
 
-
   return (
     <div className={styles.wrapper}>
       <header>

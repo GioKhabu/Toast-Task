@@ -6,6 +6,7 @@ function ToastProvider({children}) {
   const [typedMessage, setTypedMessage] = React.useState('');
   const [checkedVariant, setCheckedVariant] = React.useState('notice');
   const [toasts, setToasts] = React.useState([]);
+  
 
   useEscapeKey(setToasts);
 
